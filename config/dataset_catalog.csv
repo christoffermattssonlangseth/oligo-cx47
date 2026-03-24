@@ -1,0 +1,8 @@
+dataset_id,geo_accession,priority,model,species,title,notes,local_path,source_expression_path,source_metadata_path,value_type,zero_clip_abs
+lpc_remyelination,GSE276570,main,LPC lesion,mouse,Single-cell profiling of remyelination in the LPC model,Primary time-resolved remyelination dataset,,,,
+ms_heterogeneity,GSE118257,priority,MS,human,Altered oligodendrocyte heterogeneity in MS,Human MS oligodendroglial reference,data/raw/jakel_et_al.h5ad,/Users/chrislangseth/Downloads/jäkel-et-al/exprMatrix (2).tsv.gz,/Users/chrislangseth/Downloads/jäkel-et-al/meta (5).tsv,counts,0.0
+eae_ms_adaptive_oligo,GSE113973,priority,EAE and MS,mouse_human,Disease-specific oligodendrocyte lineage cells express immunoprotective and adaptive immunity genes in EAE and MS,Useful inflammatory and adaptive response reference,data/raw/falcao_et_al.h5ad,/Users/chrislangseth/Downloads/falcao-et-al/exprMatrix (3).tsv.gz,/Users/chrislangseth/Downloads/falcao-et-al/meta (7).tsv,log_normalized,1e-05
+cx47_cko_eae,GSE121339,optional,EAE Cx47 icKO,mouse,A novel animal model for secondary progressive multiple sclerosis by oligodendroglia-specific conditional connexin 47 knockout,Potentially high-value if obtained,,,,
+cuprizone_trem2ko,GSE204769,optional,Cuprizone Trem2KO,mouse,Transcriptomic atlas and interaction networks of brain cells in mouse CNS demyelination and remyelination,Optional demyelination and remyelination comparison,,,,
+aging_ad_mouse,GSE224398,optional,Aging AD model,mouse,ScRNA-seq of AD mouse hippocampus AD model,Optional aging comparison panel source,,,,
+da_oligo_signatures,NA,optional,External signature resource,mixed,Pandey disease-associated oligodendrocyte signatures,Use as external signature or comparison panel,,,,

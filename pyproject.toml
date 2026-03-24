@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cx47-oligo"
+version = "0.1.0"
+description = "Notebook-first exploration scaffold for Cx47-related h5ad analyses"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "anndata>=0.11",
+  "numpy>=1.24",
+  "pandas>=2.1",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "seaborn>=0.13",
+  "scanpy>=1.11",
+  "jupyterlab>=4.0",
+  "nbformat>=5.9",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

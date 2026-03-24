@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+.cache/
+
+data/raw/*.h5ad
+data/raw/**/*.h5ad
+data/processed/*
+!data/processed/.gitkeep
+figures/*
+!figures/.gitkeep
+results/*
+!results/.gitkeep
+!.cache/.gitkeep
