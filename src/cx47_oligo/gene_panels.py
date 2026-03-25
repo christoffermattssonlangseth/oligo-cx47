@@ -73,4 +73,20 @@ GENE_PANELS: dict[str, list[str]] = {
         "SCD1",
     ],
     "bbb_related": ["CLDN5", "OCLN", "TJP1", "PECAM1", "AQP4", "SLC1A2", "KCNJ10", "ATP1A2"],
+    # --- Q3: reactive glia ---
+    "a1_reactive_astrocytes": ["TNF", "IL1A", "C1QA", "C3"],
+    # --- Q4: transglial mitochondrial communication ---
+    "vesicle_trafficking": [
+        "SNAP23", "SNAPC5", "SNAPIN",
+        "VAMP2", "VAMP3", "VAMP4", "VAMP5", "VAMP7", "VAMP8",
+        "STX4", "STXBP3", "STXBP6",
+    ],
+    "ev_markers": ["CD9", "CD37", "CD63", "CD81", "CD82", "FLOT1"],
+    "tnt_core": ["TNFAIP2", "RALA", "RALBP1", "RALGAPA1", "RALGAPB", "RALGDS"],
+    "actin_cytoskeleton": ["ACTB", "ACTG1", "ACTN4", "CDC42", "RAC1", "WASL", "ACTR2", "ACTR3"],
+    "mdv_lysosomal": ["LAMP1", "LAMP2", "RAB7", "SNX9"],
+    "mdv_peroxisomal": ["PEX3", "PEX14", "PEX16", "PEX19", "PEX5"],
+    "autophagy_stress": ["FUNDC1", "ATG4D", "ATG9A", "ATG7"],
+    # --- Q5: lipid metabolism and glymphatic ---
+    "myelin_lipid_synthesis": ["CERS2", "UGT8", "SCD1"],
 }
